@@ -93,31 +93,11 @@ p {
 }
 
 .exer13 {
-    align-items: flex-end;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
 }
 
 .exer13 :nth-child(2n+1) {
     background-color: lightcoral;
-    width: 924px;
-}
-
-.items{
-    min-width: 100px;
-    padding: 50px;
-    background-color: #009cb8;
-    border: 3px solid #000
-}
-
-.description{
-    width: 1080px;
-    height: 100px;
-    background-color: tomato;
-    color: #000;
-    font-size: 2rem;
-    padding: 20px;
-}
-
-.description p {
-    border-top: 1px solid #000;
+    flex-grow: 1;
+    width: 50%;
 }
